@@ -4,7 +4,7 @@ import socket
 PORT = 9990
 HOST = "192.168.0.150"
 
-##setup the server
+##setup the client
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server = (str(HOST), PORT)
 
