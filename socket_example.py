@@ -1,9 +1,8 @@
 import socket
-import time
 
 ## Setup the target
-PORT = 9900
-HOST = "VIDEO_HUB_IP_ADDRESS"
+PORT = 9990
+HOST = "192.168.0.150"
 
 ##setup the server
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
